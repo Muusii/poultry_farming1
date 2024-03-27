@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "poultry_farming1_backend": {
+      "build": "npx azle poultry_farming1_backend",
+      "candid": "src/poultry_farming1_backend/poultry_farming1_backend.did",
+      "gzip": true,
+      "main": "src/poultry_farming1_backend/src/index.ts",
+      "type": "custom",
+      "wasm": ".azle/poultry_farming1_backend/poultry_farming1_backend.wasm"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
