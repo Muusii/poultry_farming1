@@ -1,6 +1,26 @@
 # POULTRY_FARMING DAPP.
-This real estate canister is a decentralized ICP canister which manages records for broilers, layers, and eggs. The application provides functionalities to create records, update availability after sale, retrieve records by ID, and fetch all records.
+This real estate canister is a decentralized ICP canister which manages records for broilers, layers, and eggs. 
+The unique feature for this Canister is NFC(Near Field Communication) technology that generates Unique ID TAG for each Poultry record from farm raising upto table tracking for transparency where customers can scan and know all the details entailing the poultry type they want to buy.
+The application provides functionalities to create records, update availability after sale, retrieve records by ID, and fetch all records.
 It focuses on transparency of poultry products to mitigate theft by employees.
+
+## FIELDS.
++ typeOfPoultry -- either layers or broilers.
++ age_weeks -- age of chickens in weeks.
++ feedType -- either layerfeed or broilerfeed.
++ vaccination_weeks -- the week the poultry record was vaccinated.
++ nfcTagId -- Near Field Communication (NFC) tag where is given to a certain poultry record where customers can scan to know the details for transparency.
++ id --specifies the identity of chickens.
++ createdAt -- shows when certain details were recorded.
++ numberOfBroilers -- number to be recorded.
++ numberOfLayers -- number to be recorded.
++ breed -- is either red,cornish and delaware.
+
+## How to fill the candid fields for:
++ createBroilers -- you enter age_weeks,numberOfBroilers and breed.
++ createLayers -- you enter age_weeks,numberOfLayers and breed.
++ createPoultryRecord -- you enter typeOfPoultry,age_weeks,feedType and vaccination_weeks.
+
 
 ## FEATURES.
 ### Broilers.
