@@ -1,4 +1,7 @@
+
 # POULTRY_FARMING DAPP.
+![chicken](https://github.com/Muusii/poultry_farming1/assets/159922924/458e1121-36a6-4361-93d6-3c557d123dcd)
+
 This real estate canister is a decentralized ICP canister which manages records for broilers, layers, and eggs. 
 The unique feature for this Canister is NFC(Near Field Communication) technology that generates Unique ID TAG for each Poultry record from farm raising upto table tracking for transparency where customers can scan and know all the details entailing the poultry type they want to buy.
 The application provides functionalities to create records, update availability after sale, retrieve records by ID, and fetch all records.
